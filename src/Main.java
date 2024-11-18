@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Scanner;
 
 class Quote {
-    private int id;
+    private final int id;
     private String content;
     private String author;
 
@@ -15,14 +15,6 @@ class Quote {
 
     public int getId() {
         return id;
-    }
-
-    public String getContent() {
-        return content;
-    }
-
-    public String getAuthor() {
-        return author;
     }
 
     public String formatDetail() {
